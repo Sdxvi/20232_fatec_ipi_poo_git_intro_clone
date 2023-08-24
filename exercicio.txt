@@ -1,0 +1,9 @@
+git add .\calculadora.py
+git commit -m "ap01(git): divisao implementada"
+git add .\teste_calculadora.py
+git commit -m "ap01(git): divisao testada e implementada"
+git push
+git log --pretty=oneline
+git tag -a v1.2.0 2bfe73703dbe5882781ad24b15f7f831eec1cd6d
+git tag -a v1.3.0 7bec6d394388006ab70b96facfc0fdec869fe125
+git push --tags
